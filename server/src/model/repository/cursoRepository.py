@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 
-from model.entity.cursoEntity import CursoEntity
+from src.model.entity.cursoEntity import CursoEntity
 
 class CursoRepository:
     @staticmethod
